@@ -15,5 +15,5 @@ form.addEventListener('submit', (evt) => {
     memeTop.textContent = topText.value;
     memeBottom.textContent = bottomText.value;
 
-    console.log(memeBottom.value)
+    form.reset();
 } )
